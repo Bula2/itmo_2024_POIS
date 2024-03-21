@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfAppSQL2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppSQL2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="0">
+            <Button Width="150" Height="25" Click="ProductCountButtonClickAsync" Name="productCountButton"  Margin="0, 0, 0, 0">Сколько продуктов</Button>
+            <Button Width="150" Height="25" Click="ProductNamesButtonClickAsync" Name="productListNameButton"  Margin="0, 0, 0, -50">Список имен продуктов</Button>
+            <Button Width="150" Height="25" Click="ProductInfoButtonClickAsync" Margin="0, 0, 0, -125">Информация о продуктах</Button>
+            <Button Width="150" Height="25" Click="CommitButtonClickAsync" Margin="0, 0, 0, -200">Добавить с коммитом</Button>
+            <Button Width="150" Height="25" Click="RollbackButtonClickAsync" Margin="0, 0, 0, -275">Добавить с роллбеком</Button>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="1">
+            <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Width="auto"/>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="2">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <DataGrid x:Name="dataGridInfo" AutoGenerateColumns="True" Width="auto"/>
+            </ScrollViewer>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

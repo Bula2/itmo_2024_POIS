@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfAppSQL8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppSQL8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="0">
+            <Button Width="175" Height="25" Click="CustomerButtonClick" Name="productCountButton"  Margin="0, 0, 0, 0">Get Customers</Button>
+            <Button Width="175" Height="25" Click="DropTableButtonClick" Name="productListNameButton"  Margin="0, 0, 0, -50">Отчистить таблицу</Button>
+            <Button Width="175" Height="25" Click="SelectDataSetClick" Margin="0, 0, 0, -125">Select через DataSet</Button>
+            <Button Width="175" Height="25" Click="ProcedureWithParamsButtonClickAsync" Margin="0, 0, 0, -200">Процедура с параметрами</Button>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="1">
+            <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Width="auto"/>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0" Grid.Column="2">
+            <DataGrid x:Name="dataGridInfo" AutoGenerateColumns="True" Width="auto"/>
+            <DataGrid x:Name="dataGridProcedure" AutoGenerateColumns="True" Width="auto"/>
+        </StackPanel>
+    </Grid>
+</Window>

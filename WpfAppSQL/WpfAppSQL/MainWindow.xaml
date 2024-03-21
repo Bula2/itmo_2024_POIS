@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfAppSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppSQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel HorizontalAlignment="Left" Margin="10, 10, 0, 0" Grid.Row="0">
+            <Button Width="150" Height="25" Click="OpenButtonClickAsync" Name="openButton"  Margin="0, 0, 0, 0" IsEnabled="True">Open connection</Button>
+            <Button Width="150" Height="25" Click="CloseButtonClickAsync" Name="closeButton" Margin="0, 0, 0, -50" IsEnabled="False">Close connection</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

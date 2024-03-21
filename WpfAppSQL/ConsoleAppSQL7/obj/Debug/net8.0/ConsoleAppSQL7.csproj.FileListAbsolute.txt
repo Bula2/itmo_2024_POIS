@@ -1,0 +1,14 @@
+D:\цза\WpfAppSQL\ConsoleAppSQL7\bin\Debug\net8.0\ConsoleAppSQL7.exe
+D:\цза\WpfAppSQL\ConsoleAppSQL7\bin\Debug\net8.0\ConsoleAppSQL7.deps.json
+D:\цза\WpfAppSQL\ConsoleAppSQL7\bin\Debug\net8.0\ConsoleAppSQL7.runtimeconfig.json
+D:\цза\WpfAppSQL\ConsoleAppSQL7\bin\Debug\net8.0\ConsoleAppSQL7.dll
+D:\цза\WpfAppSQL\ConsoleAppSQL7\bin\Debug\net8.0\ConsoleAppSQL7.pdb
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.GeneratedMSBuildEditorConfig.editorconfig
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.AssemblyInfoInputs.cache
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.AssemblyInfo.cs
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.csproj.CoreCompileInputs.cache
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.dll
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\refint\ConsoleAppSQL7.dll
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.pdb
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ConsoleAppSQL7.genruntimeconfig.cache
+D:\цза\WpfAppSQL\ConsoleAppSQL7\obj\Debug\net8.0\ref\ConsoleAppSQL7.dll
